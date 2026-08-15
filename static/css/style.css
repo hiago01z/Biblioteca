@@ -5,3 +5,11 @@ body{
     color: aqua;
     text-decoration: none;
 }
+.melhores-avaliados{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.melhores-avaliados-contener {
+    display: flex;
+}
