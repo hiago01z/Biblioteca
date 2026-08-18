@@ -1,14 +1,17 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
 body{
-    background-color: rgb(143, 131, 107);
+    background-color: rgba(250, 167, 12, 0.315);
 }
-.titulo-1{
-    color: aqua;
-    text-decoration: none;
-}
-.melhores-avaliados{
-    width: 100%;
-    height: 400px;
-}
-.melhores-avaliados-contener {
+header{
+    justify-content: center;
     display: flex;
+    gap: 75%;
 }
+.icons, .icons menu button img{
+    background-color: transparent;
+    width: 40px ;
+} 
