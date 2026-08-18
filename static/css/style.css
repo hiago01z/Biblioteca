@@ -14,4 +14,28 @@ header{
 .icons, .icons menu button img{
     background-color: transparent;
     width: 40px ;
+}
+.pesquisa-container{
+    justify-content: center;
+    display: flex;
 } 
+.barra-pesquisa{
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+}
+.pesquisa-container button, .pesquisa-container button img{
+    background-color: transparent;
+    width: 35px;
+}
+.links{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.categorias{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}

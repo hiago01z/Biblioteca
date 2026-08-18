@@ -6,58 +6,56 @@
         <title>Biblioteca - Livros</title>
         <link rel="stylesheet" href="/static/css/style.css">
         <link rel="icon" href="/static/img/icon.png" type="image/x-icon">
-
     </head>
     <body>
         <header> 
-            <a class="titulo-1" href="/livros"><h1>Livros</h1></a>        
+            <a  class="links" class="titulo-1" href="/"> 
+                <h1>Biblioteca X</h1> 
+            </a>        
            <nav class="menu-nav">
              <button class="icons">
                 <img class="icons" src="/static/icons/menu-aberto.png" alt="MENU">
             </button> 
                <ul  >
-                   <li><a href="/">Início</a></li>
-                   <li><a href="/livros">Livros</a></li>
-                   <li><a href="/autores">Autores</a></li>
+                   <li><a class="links" href="/">Início</a></li>
+                   <li><a class="links" href="/livros">Livros</a></li>
+                   <li><a class="links" href="/autores">Autores</a></li>
                </ul>
            </nav>
        </header>
+        <section class="pesquisa-container">
+                <input class="barra-pesquisa" type="search" placeholder="pesquisar livro...">
+                <button >
+                   <img  src="/static/icons/lupa.png" alt="">
+                </button>
+        </section>
        <div>
         <h1>Busque por categorias</h1>
-        <section>
+        <section class="categorias">
             <article>
-                <a href="">
+                <a class="links" href="">
                     <img src="#" alt="capa-categoria-">
                     <h2>Romance</h2>
                 </a>        
             </article>
             <article>
-                <a href="">
+                <a class="links" href="">
                     <img src="#" alt="capa-categoria-">
                     <h2>Aventura</h2>
                 </a>        
             </article>
             <article>
-                <a href="">
+                <a class="links" href="">
                     <img src="#" alt="capa-categoria-">
                     <h2>Ficção</h2>
                 </a>        
             </article>
             <article>
-                <a href="">
+                <a class="links" href="">
                     <img src="#" alt="capa-categoria-">
                     <h2>Científico</h2>
                 </a>        
             </article>
-        </section>
-       </div>
-       <div>
-        <h1>Todos os livros</h1>
-        <section>
-            <input type="search" placeholder="pesquisar livro...">
-            <button class="icons">
-                <img class="icons" src="/static/icons/lupa.png" alt="">
-            </button>
         </section>
        </div>
        <footer>
