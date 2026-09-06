@@ -5,24 +5,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biblioteca - Autores</title>
         <link rel="stylesheet" href="/static/css/style.css">
-        <link rel="icon" href="/static/img/icon.png" type="image/x-icon">
+        <link rel="icon" href="/static/icons/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/static/css/global.css">
     </head>
     <body>
         <header> 
-            <a  class="links" class="titulo-1" href="/"> 
-                <h1>Biblioteca X</h1> 
+            <a href="/"> 
+                <img class="logo-biblioteca" src="#" alt="logo-biblioteca">
+                <h1>Biblioteca X</h1>  
             </a>        
-           <nav class="menu-nav">
-             <button class="icons">
-                <img class="icons" src="/static/icons/menu-aberto.png" alt="MENU">
-            </button> 
+           <nav class="menu-nav"> 
                <ul  >
-                   <li><a class="links" href="/">Início</a></li>
-                   <li><a class="links" href="/livros">Livros</a></li>
-                   <li><a class="links" href="/autores">Autores</a></li>
+                   <li><a href="/">Início</a></li>
+                   <li><a href="/livros">Livros</a></li>
+                   <li><a href="/autores">Autores</a></li>
                </ul>
            </nav>
        </header>
+            <section class="pesquisa-container">
+                <input class="barra-pesquisa" type="search" placeholder="pesquisar autor...">
+                <button >buscar</button>
+            </section>
        <footer>
            <p>&copy; 2026 Biblioteca. Todos os direitos reservados.</p>
        </footer>

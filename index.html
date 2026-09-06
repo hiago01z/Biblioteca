@@ -5,17 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biblioteca - Início</title>
         <link rel="stylesheet" href="/static/css/style.css">
-        <link rel="icon" href="/static/img/icon.png" type="image/x-icon">
+        <link rel="icon" href="/static/icons/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="/static/css/global.css">
     </head>
     <body>
         <header> 
-            <a  class="links" class="titulo-1" href="/"> <!-- título clicável(direciona sempre para a página principal) -->
+            <a href="/"> 
                 <h1>Biblioteca X</h1> 
-            </a>        
-           <nav class="menu-nav"> <!-- menu de navegação -->
-             <button class="icons">
-                <img class="icons" src="/static/icons/menu-aberto.png" alt="MENU">
-            </button> 
+            </a>         
+           <nav class="menu-nav"> 
                <ul  >
                    <li><a class="links" href="/">Início</a></li>
                    <li><a class="links" href="/livros">Livros</a></li>
@@ -23,76 +21,80 @@
                </ul>
            </nav>
        </header>
+       <section class="pesquisa-container">
+            <input class="barra-pesquisa" type="search" placeholder="pesquisar livro...">
+            <button >buscar</button>
+       </section>
        <div>
-        <h1 class="titulo-vitrine">Melhores Avaliados</h1>
+        <h2 class="titulo-vitrine">Melhores Avaliados</h2>
         <section class="melhores-avaliados-contener">
         <article class="melhores-avaliados" id="livro1">
             <a href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 1</h2>
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 1</h3>
             </a>
             <p>Breve descrição do livro 1.</p>
         </article>
         <article class="melhores-avaliados" id="livro2">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 2</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 2</h3>
             </a>
             <p>Breve descrição do livro 2.</p>
         </article>
         <article class="melhores-avaliados" id="livro3">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 3</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 3</h3>
             </a>
             <p>Breve descrição do livro 3.</p>
         </article>
         <article class="melhores-avaliados" id="livro4">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 4</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 4</h3>
             </a>
             <p>Breve descrição do livro 4.</p>
         </article>
         <article class="melhores-avaliados" id="livro5">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 5</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 5</h3>
             </a>
             <p>Breve descrição do livro 5.</p>
         </article>
         <article class="melhores-avaliados" id="livro6">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 6</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 6</h3>
             </a>
             <p>Breve descrição do livro 6.</p>
         </article>
         <article class="melhores-avaliados" id="livro7">
-            <a class="links" href="#">
-               <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 7</h2>                
+            <a href="#">
+               <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 7</h3>                
            </a>
             <p>Breve descrição do livro 7.</p>
         </article>
         <article class="melhores-avaliados" id="livro8">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 8</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 8</h3>
             </a>
             <p>Breve descrição do livro 8.</p>
         </article>
         <article class="melhores-avaliados" id="livro9">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 9</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 9</h3>
             </a>
             <p>Breve descrição do livro 9.</p>
         </article>
         <article class="melhores-avaliados" id="livro10">
-            <a class="links" href="#">
-                <img src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
-                <h2>Livro 10</h2>
+            <a href="#">
+                <img class="capa-livro" src="/static/img/capa-livro.jpg" alt="Capa do Livro 1">
+                <h3>Livro 10</h3>
             </a>
             <p>Breve descrição do livro 10.</p>
         </article>
